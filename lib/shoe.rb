@@ -9,6 +9,7 @@ BRANDS = []
      unless BRANDS.includes?(brand)
     BRANDS << brand
   end
+  end
 
   def cobble
     self.condition = "new"
